@@ -1,6 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/**
+ * @property CI_DB_query_builder $db
+ */
 class Student_model extends CI_Model {
 
     public function insert($form_data)
