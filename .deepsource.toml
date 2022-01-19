@@ -3,6 +3,7 @@ version = 1
 exclude_patterns = [
   "system/**",
   "application/libraries/**",
+  "application/views/**",
   "user_guide/**",
   "**/vendor/**"
 ]
